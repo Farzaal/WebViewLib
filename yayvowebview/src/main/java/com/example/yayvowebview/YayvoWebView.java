@@ -15,7 +15,7 @@ public class YayvoWebView extends AppCompatActivity {
         setContentView(R.layout.activity_yayvo_web_view);
         Log.d("Farzal","Library");
         WebView myWebView = (WebView) findViewById(R.id.yayvo_web_view);
-        myWebView.loadUrl("https://tickets.yayvo.com/");
+        myWebView.loadUrl("https://yayvo.com/");
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
